@@ -1,0 +1,461 @@
+<!DOCTYPE html><html lang="en" class="casper"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.b1024daebf3b4c5a0c63.css" id="gatsby-global-css">html.casper body{background:#fff}html.casper .img{display:block;width:100%;height:100%;background-position:50%;background-size:cover;border-radius:100%}html.casper .hidden{visibility:hidden;position:absolute;text-indent:-9999px}html.casper .site-wrapper{display:flex;flex-direction:column;min-height:100vh}html.casper .site-main{z-index:100;flex-grow:1}html.casper .outer{position:relative;padding:0 5vw}html.casper .inner{margin:0 auto;max-width:1040px;width:100%}@media (min-width:900px){html.casper .author-template .post-feed,html.casper .home-template .post-feed,html.casper .tag-template .post-feed{padding:40px 0 5vw;border-top-left-radius:3px;border-top-right-radius:3px}html.casper .home-template .site-nav{position:relative}}html.casper .site-header-background{position:relative;margin-top:64px;padding-bottom:12px;color:#fff;background:#1b1b1d no-repeat 50%;background-size:cover}html.casper .site-header-background:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:10;display:block;background:rgba(0,0,0,.18)}html.casper .site-header-background:after{content:"";position:absolute;top:0;right:0;bottom:auto;left:0;z-index:10;display:block;height:140px;background:linear-gradient(rgba(0,0,0,.15),transparent)}html.casper .site-header-background.no-image:after,html.casper .site-header-background.no-image:before{display:none}html.casper .site-header-content{z-index:100;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:6vw 3vw;min-height:200px;max-height:340px}html.casper .site-title{z-index:10;margin:0 0 0 -2px;padding:0;font-size:5rem;line-height:1em;font-weight:600}html.casper .site-logo{max-height:55px}html.casper .site-description{z-index:10;margin:0;padding:5px 0;font-size:2.1rem;line-height:1.4em;font-weight:400;opacity:.8}html.casper .site-home-header{z-index:1000}html.casper .site-home-header .site-header-background{margin-top:0}html.casper .site-home-header .site-header-content{padding:5vw 3vw 6vw}html.casper .site-home-header .site-title{font-size:5.5rem;text-align:center}html.casper .site-home-header .site-description{font-size:2.1rem;font-weight:300;text-align:center}html.casper .site-archive-header .site-header-content{position:relative;align-items:stretch;padding:12vw 0 20px;min-height:200px;max-height:600px}html.casper .site-archive-header .no-image{padding-top:0;padding-bottom:0;color:#27272b;background:#fff;opacity:1}html.casper .site-archive-header .no-image .site-description{color:#575760;opacity:1}html.casper .site-archive-header .no-image .site-header-content{padding:5vw 0 10px;border-bottom:1px solid #b4b4bb}@media (max-width:900px){html.casper .site-header-content{padding-bottom:9vw}}@media (max-width:500px){html.casper .site-home-header .site-title{font-size:4.2rem}html.casper .site-home-header .site-description{font-size:1.8rem}html.casper .site-archive-header .site-header-content{flex-direction:column;align-items:center;min-height:unset}html.casper .site-archive-header .site-title{font-size:4.2rem;text-align:center}html.casper .site-archive-header .no-image .site-header-content{padding:12vw 0 20px}}html.casper .site-nav-main{position:fixed;top:0;right:0;left:0;z-index:1000;background:#27272b}html.casper .site-nav{position:relative;z-index:100;display:flex;justify-content:space-between;align-items:flex-start;overflow:hidden;height:64px;font-size:1.3rem}html.casper .site-nav-left-wrapper{position:relative;flex:1 0 auto;display:flex}html.casper .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,html.casper .site-nav-main .site-nav-left-wrapper:after{content:"";position:absolute;top:0;z-index:1000;width:40px;height:100%;right:0}html.casper .site-nav-left{flex:1 0 auto;display:flex;align-items:center;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin-right:10px;padding:10px 0 80px;font-weight:500;letter-spacing:.2px;text-transform:uppercase;white-space:nowrap;-ms-overflow-scrolling:touch}html.casper .site-nav-left .nav li:last-of-type{padding-right:20px}html.casper .site-nav-logo{position:relative;z-index:100;flex-shrink:0;display:inline-block;margin-right:32px;padding:12px 0;color:#fff;font-size:1.7rem;line-height:1.8rem;font-weight:700;letter-spacing:-.5px;text-transform:none}html.casper .site-nav-logo:hover{text-decoration:none}html.casper .site-nav-logo img{display:block;width:auto;height:21px}html.casper .site-home-header .site-nav-logo{display:none}html.casper .site-nav-content{position:relative;align-self:flex-start}html.casper .nav{position:absolute;z-index:1000;display:flex;margin:0 0 0 -12px;padding:0;list-style:none;transition:all 1s cubic-bezier(.19,1,.22,1)}html.casper .nav li{display:block;margin:0;padding:0}html.casper .nav li a{position:relative;display:block;padding:12px;color:#fff;opacity:.8;transition:opacity .35s ease-in-out}html.casper .nav li a:hover{text-decoration:none;opacity:1}html.casper .nav li a:before{content:"";position:absolute;right:100%;bottom:8px;left:12px;height:1px;background:#fff;opacity:.25;transition:all .35s ease-in-out}html.casper .nav li a:hover:before{right:12px;opacity:.5}html.casper .nav-post-title-active .nav{visibility:hidden;opacity:0;transform:translateY(-175%)}html.casper .nav-post-title{visibility:hidden;position:absolute;top:9px;color:#fff;font-size:1.7rem;font-weight:400;text-transform:none;opacity:0;transition:all 1s cubic-bezier(.19,1,.22,1);transform:translateY(175%)}html.casper .nav-post-title.dash{left:-25px}html.casper .nav-post-title.dash:before{content:"\2013   ";opacity:.5}html.casper .nav-post-title-active .nav-post-title{visibility:visible;opacity:1;transform:translateY(0)}html.casper .site-nav-right{flex:0 1 auto;display:flex;justify-content:flex-end;align-items:center;padding:10px 0;height:64px}html.casper .site-nav-right .nav{position:relative;margin:0}html.casper .site-nav-right .nav a{white-space:nowrap}html.casper .site-nav-right .nav a:before{display:none}html.casper .site-nav-right .nav li:last-of-type a{margin-right:-12px}html.casper .social-links{flex-shrink:0;display:flex;align-items:center}html.casper .social-link{display:inline-block;margin:0;padding:10px;opacity:.8}html.casper .social-link:hover{opacity:1}html.casper .social-link svg{height:1.8rem;fill:#fff}html.casper .social-link-fb svg,html.casper .social-link-wb svg{height:1.6rem}html.casper .social-link-wb svg path{stroke:#fff}html.casper .social-link-rss svg{height:1.9rem}html.casper .subscribe-button{display:block;margin:0 0 0 10px;padding:4px 10px;border:1px solid #fff;color:#fff;line-height:1em;border-radius:10px;opacity:.8}html.casper .subscribe-button:hover{text-decoration:none;opacity:1}html.casper .site-nav-right .nav+.subscribe-button{margin-left:24px}html.casper .rss-button{padding:10px 8px;opacity:.8}html.casper .rss-button:hover{opacity:1}html.casper .rss-button svg{margin-bottom:1px;height:2.1rem;fill:#fff}html.casper .home-template .site-nav-main{z-index:100}html.casper .home-template .site-nav-main .site-nav{opacity:0;transition:all .5s cubic-bezier(.19,1,.22,1) 0s}html.casper .home-template .site-nav-main .fixed-nav-active{opacity:1;transition:all .5s cubic-bezier(.19,1,.22,1) .05s}@media (max-width:700px){html.casper .site-home-header .site-nav{margin-left:-5vw}html.casper .site-nav-main{padding-right:0;padding-left:0}html.casper .site-nav-left{margin-right:0;padding-left:5vw}html.casper .site-nav-right{display:none}}html.casper .posts{overflow-x:hidden}html.casper .post-feed{position:relative;display:flex;flex-wrap:wrap;margin:0 -20px;padding:50px 0 0;background:#fcfcfd}html.casper .post-card{position:relative;flex:1 1 301px;display:flex;flex-direction:column;overflow:hidden;margin:0 0 40px;padding:0 20px 40px;min-height:220px;border-bottom:1px solid #e4e4e7;background-size:cover}html.casper .post-card-image-link{position:relative;display:block;overflow:hidden;border-radius:3px}html.casper .post-card-image{width:100%;min-height:180px;background:#94949e no-repeat 50%;-o-object-fit:cover;object-fit:cover}html.casper .post-card-content-link{position:relative;display:block;color:#27272b}html.casper .post-card-content-link:hover{text-decoration:none}html.casper .post-card-header{margin:15px 0 0}html.casper .post-feed .no-image .post-card-content-link{padding:0}html.casper .no-image .post-card-header{margin-top:0}html.casper .post-card-primary-tag{margin:0 0 .2em;color:#27ec93;font-size:1.2rem;font-weight:500;letter-spacing:.2px;text-transform:uppercase}html.casper .post-card-title{margin:0 0 .75em;line-height:1.15em;transition:color .2s ease-in-out}html.casper .no-image .post-card-title{margin-top:0}html.casper .post-card-content{flex-grow:1;display:flex;flex-direction:column}html.casper .post-card-excerpt{max-width:56em;color:#575760;font-family:Georgia,serif}html.casper .post-card-excerpt p{margin-bottom:1em}html.casper .post-card-meta{display:flex;align-items:flex-start;padding:0}html.casper .author-profile-image,html.casper .avatar-wrapper{display:block;width:100%;height:100%;background:#afafb6;border-radius:100%;-o-object-fit:cover;object-fit:cover}html.casper .post-card-meta .avatar-wrapper,html.casper .post-card-meta .profile-image-wrapper{position:relative}html.casper .author-list{display:flex;flex-wrap:wrap;margin:0 0 0 4px;padding:0;list-style:none}html.casper .author-list-item{position:relative;flex-shrink:0;margin:0;padding:0}html.casper .static-avatar{display:block;overflow:hidden;margin:0 0 0 -6px;width:34px;height:34px;border:2px solid #fff;border-radius:100%}html.casper .author-name-tooltip{position:absolute;bottom:105%;z-index:999;display:block;padding:2px 8px;color:#fff;font-size:1.2rem;letter-spacing:.2px;white-space:nowrap;background:#27272b;border-radius:3px;box-shadow:0 12px 26px rgba(39,44,49,.08),1px 3px 8px rgba(39,44,49,.03);opacity:0;transition:all .35s cubic-bezier(.4,.01,.165,.99);transform:translateY(6px);pointer-events:none}html.casper .author-list-item:hover .author-name-tooltip{opacity:1;transform:translateY(0)}@media (max-width:700px){html.casper .author-name-tooltip{display:none}}html.casper .post-card-byline-content{flex:1 1 50%;display:flex;flex-direction:column;margin:2px 0 0 6px;color:#6f6f7b;font-size:1.2rem;line-height:1.4em;font-weight:400;letter-spacing:.2px;text-transform:uppercase}html.casper .post-card-byline-content span{margin:0}html.casper .post-card-byline-content a{color:#575760;font-weight:600}html.casper .post-card-byline-date{font-size:1.2rem}html.casper .post-card-byline-date .bull{display:inline-block;margin:0 4px;opacity:.6}html.casper .single-author-byline{display:flex;flex-direction:column;margin-left:5px;color:#3f3f46;font-size:1.3rem;line-height:1.4em;font-weight:500}html.casper .single-author{display:flex;align-items:center}html.casper .single-author .static-avatar{margin-left:-2px}html.casper .single-author-name{display:inline-block}@media (min-width:795px){html.casper .post-card-large{flex:1 1 100%;flex-direction:row;padding-bottom:40px;min-height:280px;border-top:0}html.casper .post-card-large:hover{border-bottom-color:#afafb6}html.casper .post-card-large:not(.no-image) .post-card-header{margin-top:0}html.casper .post-card-large .post-card-image-link{position:relative;flex:1 1 auto;margin-bottom:0;min-height:380px}html.casper .post-card-large .post-card-image{position:absolute;width:100%;height:100%}html.casper .post-card-large .post-card-content{flex:0 1 361px;justify-content:center}html.casper .post-card-large .post-card-title{margin-top:0;font-size:3.2rem}html.casper .post-card-large .post-card-content-link,html.casper .post-card-large .post-card-meta{padding:0 0 0 40px}html.casper .post-card-large .post-card-excerpt p{margin-bottom:1.5em;font-size:1.8rem;line-height:1.5em}}@media (max-width:1170px){html.casper .post-card{margin-bottom:5vw}}@media (max-width:650px){html.casper .post-feed{padding-top:5vw}html.casper .post-card{margin-bottom:5vw}}@media (max-width:500px){html.casper .post-card-title{font-size:1.9rem}html.casper .post-card-excerpt{font-size:1.6rem}}html.casper .page-template .site-main,html.casper .post-template .site-main{margin-top:64px;padding-bottom:4vw;background:#fcfcfd}html.casper .post-full-header{position:relative;margin:0 auto;padding:70px 170px 50px;border-top-left-radius:3px;border-top-right-radius:3px}html.casper .post-full-tags{display:flex;justify-content:flex-start;align-items:center;color:#575760;font-size:1.3rem;line-height:1.4em;font-weight:600;text-transform:uppercase}html.casper .post-full-meta-date{color:#575760;font-size:1.2rem;font-weight:400}@media (max-width:1170px){html.casper .post-full-header{padding:60px 11vw 50px}}@media (max-width:800px){html.casper .post-full-header{padding-right:5vw;padding-left:5vw}}@media (max-width:500px){html.casper .post-full-header{padding:20px 0 35px}}html.casper .post-full-title{margin:0 0 .2em;color:#1b1b1d}html.casper .post-full-custom-excerpt{margin:20px 0 0;color:#575760;font-family:Georgia,serif;font-size:2.3rem;line-height:1.4em;font-weight:300}html.casper .date-divider{display:inline-block;margin:0 6px 1px;font-weight:300}html.casper .post-full-image{display:flex;flex-direction:column;align-items:center;overflow:hidden;margin:25px 0 50px;background:#afafb6;border-radius:3px}html.casper .post-full-image img{max-width:1040px;width:100%;height:auto}html.casper .post-full-content{position:relative;margin:0 auto;padding:0 170px 6vw;min-height:230px;font-family:Georgia,serif;font-size:2rem;line-height:1.6em;background:#fcfcfd}@media (max-width:1170px){html.casper .post-full-content{padding:0 11vw}}@media (max-width:800px){html.casper .post-full-content{padding:0 5vw;font-size:1.8rem}}@media (max-width:500px){html.casper .post-full-custom-excerpt{font-size:1.9rem;line-height:1.5em}}html.casper .no-image .post-full-content{padding-top:0}html.casper .no-image .post-full-content:after,html.casper .no-image .post-full-content:before{display:none}html.casper .footnotes,html.casper .post-full-comments,html.casper .post-full-content blockquote,html.casper .post-full-content dl,html.casper .post-full-content h1,html.casper .post-full-content h2,html.casper .post-full-content h3,html.casper .post-full-content h4,html.casper .post-full-content h5,html.casper .post-full-content h6,html.casper .post-full-content ol,html.casper .post-full-content p,html.casper .post-full-content pre,html.casper .post-full-content ul{margin:0 0 1.5em;min-width:100%}@media (max-width:500px){html.casper .footnotes,html.casper .post-full-comments,html.casper .post-full-content dl,html.casper .post-full-content ol,html.casper .post-full-content p,html.casper .post-full-content pre,html.casper .post-full-content ul{margin-bottom:1.28em}}html.casper .post-full-content li{word-break:break-word}html.casper .post-full-content li p{margin:0}html.casper .post-full-content a{color:#27272b;word-break:break-word;box-shadow:inset 0 -1px 0 #27272b;transition:all .2s ease-in-out}html.casper .post-full-content a:hover{color:#27ec93;text-decoration:none;box-shadow:inset 0 -1px 0 #27ec93}html.casper .post-full-content em,html.casper .post-full-content strong{color:#1b1b1d}html.casper .post-full-content small{display:inline-block;line-height:1.6em}html.casper .post-full-content li:first-child{margin-top:0}html.casper .post-full-content img,html.casper .post-full-content video{display:block;margin:1.5em auto;max-width:1040px;height:auto}@media (max-width:1040px){html.casper .post-full-content img,html.casper .post-full-content video{width:100%}}html.casper .post-full-content img[src$="#full"]{max-width:none;width:100vw}html.casper .post-full-content img+br+small{display:block;margin-top:-3em;margin-bottom:1.5em;text-align:center}html.casper .post-full-content iframe{margin:0 auto!important}html.casper .post-full-content blockquote{margin:0 0 1.5em;padding:0 1.5em;border-left:3px solid #27ec93}@media (max-width:500px){html.casper .post-full-content blockquote{padding:0 1.3em}}html.casper .post-full-content blockquote p{margin:0 0 1em;color:inherit;font-size:inherit;line-height:inherit;font-style:italic}html.casper .post-full-content blockquote p:last-child{margin-bottom:0}html.casper .post-full-content code{padding:0 5px 2px;font-size:.8em;line-height:1em;font-weight:400!important;background:#ececee;border-radius:3px}html.casper .post-full-content p code{word-break:break-all}html.casper .post-full-content pre{overflow-x:auto;margin:1.5em 0 3em;padding:20px;max-width:100%;border:1px solid #0f0f10;color:#ececee;font-size:1.4rem;line-height:1.5em;background:#1f1f23;border-radius:5px}html.casper .post-full-content pre ::-moz-selection{color:#1b1b1d}html.casper .post-full-content pre ::selection{color:#1b1b1d}html.casper .post-full-content pre code{padding:0;font-size:inherit;line-height:inherit;background:transparent}html.casper .post-full-content pre code :not(span){color:inherit}html.casper .post-full-content .fluid-width-video-wrapper{margin:1.5em 0 3em}html.casper .post-full-content hr{margin:2em 0}html.casper .post-full-content hr:after{content:"";position:absolute;top:-15px;left:50%;display:block;margin-left:-10px;width:1px;height:30px;background:#afafb6;box-shadow:0 0 0 5px #fcfcfd;transform:rotate(45deg)}html.casper .post-full-content hr+p{margin-top:1.2em}html.casper .post-full-content h1,html.casper .post-full-content h2,html.casper .post-full-content h3,html.casper .post-full-content h4,html.casper .post-full-content h5,html.casper .post-full-content h6{color:#1b1b1d;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif}html.casper .post-full-content h1{margin:.5em 0 .4em;font-size:4.2rem;line-height:1.25em;font-weight:600}html.casper .post-full-content p+h1{margin-top:.8em}@media (max-width:800px){html.casper .post-full-content h1{font-size:3.2rem;line-height:1.25em}}html.casper .post-full-content h2{margin:.5em 0 .4em;font-size:3.2rem;line-height:1.25em;font-weight:600}html.casper .post-full-content p+h2{margin-top:.8em}@media (max-width:800px){html.casper .post-full-content h2{margin-bottom:.3em;font-size:2.8rem;line-height:1.25em}}html.casper .post-full-content h3{margin:.5em 0 .2em;font-size:2.5rem;line-height:1.3em;font-weight:600}html.casper .post-full-content h2+h3{margin-top:.7em}@media (max-width:800px){html.casper .post-full-content h3{margin-bottom:.3em;font-size:2.4rem;line-height:1.3em}}html.casper .post-full-content h4{margin:.5em 0 .2em;font-size:2.5rem;font-weight:600}html.casper .post-full-content h2+h4{margin-top:.7em}html.casper .post-full-content h3+h4{margin-top:0}@media (max-width:800px){html.casper .post-full-content h4{margin-bottom:.3em;font-size:2.4rem;line-height:1.3em}}html.casper .post-full-content h5{display:block;margin:.5em 0;padding:.4em 1em .9em;border:0;color:#27ec93;font-family:Georgia,serif;font-size:3.2rem;line-height:1.35em;text-align:center}@media (min-width:1180px){html.casper .post-full-content h5{max-width:1060px;width:100vw}}@media (max-width:800px){html.casper .post-full-content h5{margin-bottom:1em;margin-left:1.3em;padding:0 0 .5em;font-size:2.4rem;text-align:initial}}html.casper .post-full-content h6{margin:.5em 0 .2em;font-size:2rem;font-weight:700}@media (max-width:800px){html.casper .post-full-content h6{font-size:1.8rem;line-height:1.4em}}html.casper .footnotes-sep{margin-bottom:30px}html.casper .footnotes{font-size:1.5rem}html.casper .footnotes p{margin:0}html.casper .footnote-backref{color:#27ec93!important;font-size:1.2rem;font-weight:700;text-decoration:none!important;box-shadow:none!important}@media (max-width:1170px){html.casper .post-full-image{margin:25px -6vw 50px;border-radius:0}html.casper .post-full-image img{max-width:1170px}}@media (max-width:700px){html.casper .post-full-image{margin:25px -5vw}}@media (max-width:500px){html.casper .post-full-meta{font-size:1.2rem;line-height:1.3em}html.casper .post-full-title{margin-top:.2em;font-size:4.2rem;line-height:1.05em}html.casper .post-full-image{margin-top:5px;margin-bottom:5vw}html.casper .post-full-content{padding:0}html.casper .post-full-content:after,html.casper .post-full-content:before{display:none}}html.casper .post-full-content table{display:inline-block;overflow-x:auto;margin:.5em 0 2.5em;max-width:100%;width:auto;border-spacing:0;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;font-size:1.6rem;white-space:nowrap;vertical-align:top;-webkit-overflow-scrolling:touch;background:radial-gradient(ellipse at left,rgba(0,0,0,.2) 0,transparent 75%) 0,radial-gradient(ellipse at right,rgba(0,0,0,.2) 0,transparent 75%) 100%;background-attachment:scroll,scroll;background-size:10px 100%,10px 100%;background-repeat:no-repeat}html.casper .post-full-content table td:first-child{background-image:linear-gradient(90deg,#fff 50%,hsla(0,0%,100%,0));background-size:20px 100%;background-repeat:no-repeat}html.casper .post-full-content table td:last-child{background-image:linear-gradient(270deg,#fff 50%,hsla(0,0%,100%,0));background-position:100% 0;background-size:20px 100%;background-repeat:no-repeat}html.casper .post-full-content table th{color:#27272b;font-size:1.2rem;font-weight:700;letter-spacing:.2px;text-align:left;text-transform:uppercase;background-color:#f7f7f8}html.casper .post-full-content table td,html.casper .post-full-content table th{padding:6px 12px;border:1px solid #eaeaeb}html.casper .post-full-byline{display:flex;justify-content:space-between;margin:35px 0 0;padding-top:15px;border-top:1px solid #afafb6}html.casper .post-full-byline-content{flex-grow:1;display:flex;align-items:flex-start}html.casper .post-full-byline-content .author-list{justify-content:flex-start;padding:0 12px 0 0}html.casper .post-full-byline-meta{margin:2px 0 0;color:#6f6f7b;font-size:1.2rem;line-height:1.2em;letter-spacing:.2px;text-transform:uppercase}html.casper .post-full-byline-meta h4{margin:0 0 3px;font-size:1.3rem;line-height:1.4em;font-weight:500}html.casper .post-full-byline-meta h4 a{color:#3f3f46}html.casper .post-full-byline-meta h4 a:hover{color:#27272b}html.casper .post-full-byline-meta .bull{display:inline-block;margin:0 4px;opacity:.6}html.casper .author-avatar{display:block;overflow:hidden;margin:0 -4px;width:40px;height:40px;border:2px solid #fff;border-radius:100%;transition:all .5s cubic-bezier(.4,.01,.165,.99) .7s}html.casper .author-list-item .author-card{position:absolute;bottom:130%;left:50%;z-index:600;display:flex;justify-content:space-between;margin-left:-200px;width:400px;font-size:1.4rem;line-height:1.5em;background:#fff;border-radius:3px;box-shadow:0 12px 26px rgba(39,44,49,.08),1px 3px 8px rgba(39,44,49,.06);opacity:0;transition:all .35s cubic-bezier(.4,.01,.165,.99);transform:scale(.98) translateY(15px);pointer-events:none}html.casper .author-list-item .author-card:before{content:"";position:absolute;top:100%;left:50%;display:block;margin-left:-8px;width:0;height:0;border-top:8px solid #fff;border-right:8px solid transparent;border-left:8px solid transparent}html.casper .author-list-item .author-card.hovered{opacity:1;transform:scale(1) translateY(0);pointer-events:auto}html.casper .author-card{padding:20px 20px 22px}html.casper .author-card .author-info{flex:1 1 auto;padding:0 0 0 20px}html.casper .author-card .author-info h2{margin:8px 0 0;font-size:1.6rem}html.casper .author-card .author-info p{margin:4px 0 0;color:#3f3f46}html.casper .author-card .author-info .bio h2{margin-top:0}html.casper .author-card .author-info .bio p{margin-top:.8em}html.casper .author-card .author-profile-image{flex:0 0 60px;margin:0;width:60px;height:60px;border:none}html.casper .basic-info .avatar-wrapper{position:relative;margin:0;width:60px;height:60px;border:none;background:rgba(229,239,245,.1)}html.casper .basic-info .avatar-wrapper svg{margin:0;width:60px;height:60px;opacity:.15}@media (max-width:1170px){html.casper .author-list-item .author-card{margin-left:-50px;width:430px}html.casper .author-list-item .author-card:before{left:50px}}@media (max-width:650px){html.casper .author-list-item .author-card{display:none}}@media (max-width:500px){html.casper .author-avatar{width:36px;height:36px}html.casper .post-full-byline{margin-top:20px}html.casper .post-full-byline-meta{font-size:1.2rem}html.casper .post-full-byline-meta h4{margin-bottom:2px;font-size:1.2rem}}html.casper .subscribe-form{margin:1.5em 0;padding:6.5vw 7vw 8vw;border:1px solid #afafb6;text-align:center;background:linear-gradient(#fcfcfd,#f7f7f8);border-radius:3px}html.casper .subscribe-form-title{margin:0 0 3px;padding:0;color:#27272b;font-size:3.5rem;line-height:1;font-weight:600}html.casper .subscribe-form-description{margin-bottom:.2em 0 1em;color:#575760;font-size:2.1rem;line-height:1.55em}html.casper .subscribe-form form{display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0 auto;max-width:460px}html.casper .subscribe-form .form-group{align-self:stretch;display:flex}html.casper .subscribe-email{display:block;padding:10px;width:100%;border:1px solid #a7a7af;color:#575760;font-size:1.8rem;line-height:1em;font-weight:400;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;border-radius:5px;transition:border-color .15s linear;-webkit-appearance:none}html.casper .subscribe-form button{position:relative;display:inline-block;margin:0 0 0 10px;padding:0 20px;height:43px;outline:none;color:#fff;font-size:1.5rem;line-height:39px;font-weight:400;text-align:center;background:linear-gradient(#38ed9c,#1fd181 60%,#1fd181 90%,#21de89);border-radius:5px;-webkit-font-smoothing:subpixel-antialiased}html.casper .subscribe-form button:active,html.casper .subscribe-form button:focus{background:#1ec87b}html.casper .subscribe-form .button-loader,html.casper .subscribe-form .message-error,html.casper .subscribe-form .message-success{display:none}html.casper .subscribe-form .loading .button-content{visibility:hidden}html.casper .subscribe-form .loading .button-loader{position:absolute;top:0;left:50%;display:inline-block;margin-left:-19px;transform:scale(.7)}html.casper .subscribe-form .button-loader svg path,html.casper .subscribe-form .button-loader svg rect{fill:#fff}html.casper .subscribe-form .error .message-error,html.casper .subscribe-form .invalid .message-error,html.casper .subscribe-form .success .message-success{margin:1em auto 0;max-width:400px;color:#f05230;font-size:1.6rem;line-height:1.5em;text-align:center}html.casper .subscribe-form .success .message-success{display:block;color:#98c22e}html.casper .subscribe-form .error .message-error,html.casper .subscribe-form .invalid .message-error{display:block}@media (max-width:650px){html.casper .subscribe-form-title{font-size:2.4rem}html.casper .subscribe-form-description{font-size:1.6rem}}@media (max-width:500px){html.casper .subscribe-form form{flex-direction:column}html.casper .subscribe-form .form-group{flex-direction:column;width:100%}html.casper .subscribe-form button{margin:10px 0 0;width:100%}}html.casper .post-full-comments{margin:0 auto;max-width:840px}html.casper .read-next{border-bottom:1px solid hsla(0,0%,100%,.1);background:#1b1b1d}html.casper .read-next-feed{display:flex;flex-wrap:wrap;margin:0 -25px;padding:60px 0 0}html.casper .read-next .post-card{padding-bottom:0;border-bottom:none}html.casper .read-next .post-card:after{display:none}html.casper .read-next .post-card-primary-tag{color:#fff;opacity:.6}html.casper .read-next .post-card-title{color:#fff;opacity:.8;transition:all .2s ease-in-out}html.casper .read-next .post-card:hover .post-card-image{opacity:1}html.casper .read-next .post-card-excerpt{color:hsla(0,0%,100%,.6)}html.casper .read-next .static-avatar{border-color:#000}html.casper .read-next .post-card-byline-content{color:hsla(0,0%,100%,.6)}html.casper .read-next .post-card-byline-content a{color:hsla(0,0%,100%,.8)}html.casper .read-next-card{position:relative;flex:0 1 326px;display:flex;flex-direction:column;overflow:hidden;margin:0 25px 50px;padding:25px;background:linear-gradient(#2c2c30,#1b1b1d);border-radius:3px}html.casper .read-next-card a{transition:all .2s ease-in-out}html.casper .read-next-card a:hover{text-decoration:none}html.casper .read-next-card-header h3{margin:0;color:hsla(0,0%,100%,.6);font-size:1.2rem;line-height:1em;font-weight:300;letter-spacing:.4px;text-transform:uppercase}html.casper .read-next-card-header h3 a{color:#fff;font-weight:500;text-decoration:none;opacity:.8}html.casper .read-next-card-header h3 a:hover{opacity:1}html.casper .read-next-card-content{font-size:1.7rem}html.casper .read-next-card-content ul{display:flex;flex-direction:column;margin:0;padding:0;list-style:none}html.casper .read-next-card-content li{display:flex;flex-direction:column;align-items:flex-start;margin:0;padding:20px 0;border-bottom:hsla(0,0%,100%,.1)}html.casper .read-next-card-content li:last-of-type{padding-bottom:5px;border:none}html.casper .read-next-card-content h4{margin:0;font-size:1.6rem;line-height:1.35em;font-weight:600}html.casper .read-next-card-content li a{display:block;color:#fff;opacity:.8}html.casper .read-next-card-content li a:hover{opacity:1}html.casper .read-next-card-excerpt{overflow:hidden;max-width:100%;font-size:1.4rem;line-height:1.2em;text-overflow:ellipsis}html.casper .read-next-card-meta{margin-top:2px;font-size:1.2rem;line-height:1.4em;font-weight:400}html.casper .read-next-card-meta p{margin:0;color:hsla(0,0%,100%,.6)}html.casper .read-next-card-footer{position:relative;margin:40px 0 5px}html.casper .read-next-card-footer a{padding:7px 12px 8px 14px;border:1px solid hsla(0,0%,100%,.6);color:hsla(0,0%,100%,.6);font-size:1.3rem;border-radius:999px;transition:all .35s ease-in-out}html.casper .read-next-card-footer a:hover{border-color:#fecd35;color:#fecd35;text-decoration:none}@media (max-width:1170px){html.casper .read-next-card{flex:1 1 261px;margin-bottom:5vw}}@media (max-width:650px){html.casper .read-next-feed{flex-direction:column;padding:25px 0 0}html.casper .read-next-card{flex:1 1 auto;margin:0 25px;padding:0;background:none}html.casper .read-next .post-card{flex:1 1 auto;margin:25px;padding:25px 0 0;border-bottom:1px solid hsla(0,0%,100%,.1)}}html.casper .post-content{display:flex;flex-direction:column;align-items:center}html.casper .post-full-content .kg-image{margin:0 auto;max-width:100%}html.casper .post-full-image+.post-full-content .kg-content :first-child .kg-image{width:100%}html.casper .post-full-content .kg-width-wide .kg-image{max-width:1040px}html.casper .post-full-content .kg-width-full .kg-image{max-width:100vw}html.casper .post-full-content figure{margin:.8em 0 2.3em}html.casper .post-full-content h1+figure,html.casper .post-full-content h2+figure,html.casper .post-full-content h3+figure,html.casper .post-full-content h4+figure{margin-top:2em}html.casper .post-full-content figure img{margin:0}html.casper .post-full-content figcaption{margin:1em auto 0;color:#3f3f46;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;font-size:75%;line-height:1.5em;text-align:center;max-width:1040px}html.casper .kg-width-full figcaption{padding:0 1.5em}html.casper .kg-embed-card{display:flex;flex-direction:column;align-items:center;width:100%}html.casper .kg-embed-card .fluid-width-video-wrapper{margin:0}@media (max-width:1040px){html.casper .post-full-content .kg-width-full .kg-image{width:100vw}}html.casper .kg-gallery-container{display:flex;flex-direction:column;max-width:1040px;width:100vw}html.casper .kg-gallery-row{display:flex;flex-direction:row;justify-content:center}html.casper .kg-gallery-image img{display:block;margin:0;width:100%;height:100%}html.casper .kg-gallery-row:not(:first-of-type){margin:.75em 0 0}html.casper .kg-gallery-image:not(:first-of-type){margin:0 0 0 .75em}html.casper .kg-gallery-card+.kg-gallery-card,html.casper .kg-gallery-card+.kg-image-card.kg-width-wide,html.casper .kg-image-card.kg-width-wide+.kg-gallery-card,html.casper .kg-image-card.kg-width-wide+.kg-image-card.kg-width-wide{margin:-2.25em 0 3em}html.casper .kg-code-card{width:100%}html.casper .kg-code-card pre{margin:0}html.casper .kg-bookmark-card{width:100%}html.casper .kg-card+.kg-bookmark-card{margin-top:0}html.casper .post-full-content .kg-bookmark-container{display:flex;min-height:148px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;border-radius:3px}html.casper .post-full-content .kg-bookmark-container,html.casper .post-full-content .kg-bookmark-container:hover{color:#27272b;text-decoration:none;box-shadow:0 2px 5px -1px rgba(0,0,0,.15),0 0 1px rgba(0,0,0,.09)}html.casper .kg-bookmark-content{flex-grow:1;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;padding:20px}html.casper .kg-bookmark-title{color:#0f0f10;font-size:1.6rem;line-height:1.5em;font-weight:600;transition:color .2s ease-in-out}html.casper .post-full-content .kg-bookmark-container:hover .kg-bookmark-title{color:#27ec93}html.casper .kg-bookmark-description{display:-webkit-box;overflow-y:hidden;margin-top:12px;max-height:48px;color:#3f3f46;font-size:1.5rem;line-height:1.5em;font-weight:400;-webkit-line-clamp:2;-webkit-box-orient:vertical}html.casper .kg-bookmark-thumbnail{position:relative;min-width:33%;max-height:100%}html.casper .kg-bookmark-thumbnail img{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:0 3px 3px 0;-o-object-fit:cover;object-fit:cover}html.casper .kg-bookmark-metadata{display:flex;flex-wrap:wrap;align-items:center;margin-top:14px;color:#3f3f46;font-size:1.5rem;font-weight:400}html.casper .post-full-content .kg-bookmark-icon{margin-right:8px;width:22px;height:22px}html.casper .kg-bookmark-author{line-height:1.5em;display:none}html.casper .kg-bookmark-author:after{content:"\2022";margin:0 6px}html.casper .kg-bookmark-publisher{overflow:hidden;max-width:240px;line-height:1.5em;text-overflow:ellipsis;white-space:nowrap}@media (max-width:800px){html.casper .post-full-content figure{margin:.2em 0 1.3em}html.casper .post-full-content h1+figure,html.casper .post-full-content h2+figure,html.casper .post-full-content h3+figure,html.casper .post-full-content h4+figure{margin-top:.9em}}@media (max-width:500px){html.casper .post-full-content .kg-width-full,html.casper .post-full-content .kg-width-wide{margin-right:-5vw;margin-left:-5vw}html.casper .post-full-content figcaption{margin-bottom:.4em}html.casper .post-full-content .kg-bookmark-container{flex-direction:column}html.casper .kg-bookmark-description,html.casper .kg-bookmark-metadata,html.casper .kg-bookmark-title{font-size:1.4rem;line-height:1.5em}html.casper .post-full-content .kg-bookmark-icon{width:18px;height:18px}html.casper .kg-bookmark-thumbnail{order:1;min-height:160px;width:100%}html.casper .kg-bookmark-thumbnail img{border-radius:3px 3px 0 0}html.casper .kg-bookmark-content{order:2}}html.casper .author-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:flex-start;padding:10vw 0 10px}html.casper .site-archive-header .author-header{align-items:center}html.casper .site-archive-header .no-image .author-header{padding-bottom:20px}html.casper .author-header-content{display:flex;flex-direction:column;justify-content:center;margin:5px 0 0 30px}html.casper .site-header-content .author-profile-image{z-index:10;flex-shrink:0;margin:-4px 0 0;width:110px;height:110px;box-shadow:0 0 0 6px hsla(0,0%,100%,.1)}html.casper .author-header-content .author-bio{z-index:10;flex-shrink:0;margin:6px 0 0;max-width:46em;font-size:2rem;line-height:1.3em;font-weight:400;opacity:.8}html.casper .author-header-content .author-meta{z-index:10;flex-shrink:0;display:flex;align-items:center;margin:0 0 0 1px;font-size:1.2rem;font-weight:400;letter-spacing:.2px;text-transform:uppercase;white-space:nowrap}html.casper .author-header-content .social-link:first-of-type{padding-left:4px}html.casper .no-image .author-header-content .author-bio,html.casper .no-image .author-header-content .author-meta{color:#575760;opacity:1}html.casper .author-social-link a{color:#fff;font-weight:600}html.casper .no-image .author-social-link a{color:#27272b}html.casper .author-social-link a:hover{opacity:1}html.casper .author-social-link{display:inline-block;margin:0;padding:6px 0}html.casper .author-location+.author-stats:before,html.casper .author-social-link+.author-social-link:before,html.casper .author-stats+.author-social-link:before{content:"\2022";display:inline-block;margin:0 12px;color:#fff;opacity:.6}html.casper .no-image .author-location+.author-stats:before,html.casper .no-image .author-social-link+.author-social-link:before,html.casper .no-image .author-stats+.author-social-link:before{color:#575760}@media (max-width:700px){html.casper .author-location,html.casper .author-stats,html.casper .author-stats+.author-social-link:first-of-type:before{display:none}}@media (max-width:500px){html.casper .author-header{padding:10px 0 0}html.casper .no-image .author-header{padding-bottom:10px}html.casper .author-header-content{align-items:center;margin:16px 0 0}html.casper .site-header-content .author-profile-image{width:96px;height:96px}html.casper .author-header-content .author-bio{font-size:1.8rem;line-height:1.3em;letter-spacing:0;text-align:center}html.casper .author-header-content .author-meta{margin-top:8px}html.casper .author-location+.author-stats:before,html.casper .author-social-link+.author-social-link:before,html.casper .author-stats+.author-social-link:before{display:inline;margin:0 6px}}html.casper .error-content{padding:14vw 4vw 6vw}html.casper .site-nav-center{display:flex;justify-content:center;align-items:center;padding:10px 0;text-align:center}html.casper .site-nav-center .site-nav-logo{margin-right:0}html.casper .error-message{padding-bottom:10vw;border-bottom:1px solid #afafb6;text-align:center}html.casper .error-code{margin:0;color:#94949e;font-size:12vw;line-height:1em;letter-spacing:-5px;opacity:.75}html.casper .error-description{margin:0;color:#575760;font-size:3rem;line-height:1.3em;font-weight:400}html.casper .error-link{display:inline-block;margin-top:5px}@media (min-width:940px){html.casper .error-content .post-card{margin-bottom:0;padding-bottom:0;border-bottom:none}}@media (max-width:800px){html.casper .error-content{padding-top:24vw}html.casper .error-code{font-size:11.2rem}html.casper .error-message{padding-bottom:16vw}html.casper .error-description{margin:5px 0 0;font-size:1.8rem}}@media (max-width:500px){html.casper .error-content{padding-top:28vw}html.casper .error-message{padding-bottom:14vw}}html.casper .subscribe-success-message{position:fixed;top:0;right:0;left:0;z-index:9000;padding:20px 0;color:#fff;text-align:center;background:#a4d037;transition:all .35s cubic-bezier(.19,1,.22,1) .5s;transform:translateY(-175%)}html.casper .subscribe-success .subscribe-success-message{visibility:visible;transform:translateY(0)}html.casper .subscribe-success-message.close{visibility:hidden;transition:all 1.35s cubic-bezier(.19,1,.22,1);transform:translateY(-175%)}html.casper .subscribe-close-overlay{position:absolute;top:0;right:0;bottom:0;left:0;display:block}html.casper .subscribe-close-button{position:absolute;top:16px;right:20px;z-index:2000;display:block;width:40px;height:40px}html.casper .subscribe-close-button:before{transform:rotate(45deg)}html.casper .subscribe-close-button:after,html.casper .subscribe-close-button:before{content:"";position:absolute;top:20px;right:4px;display:block;width:32px;height:1px;background:#fff;opacity:.8}html.casper .subscribe-close-button:after{transform:rotate(-45deg)}html.casper .subscribe-close-button:hover,html.casper .subscribe-close-overlay:hover{cursor:default}html.casper .subscribe-overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:2000;display:flex;justify-content:center;align-items:center;background:rgba(9,10,11,.97);opacity:0;transition:opacity .2s ease-in;pointer-events:none}html.casper .subscribe-overlay:target{z-index:2001;opacity:1;pointer-events:auto}html.casper .subscribe-overlay-content{position:relative;margin:0 0 5vw;padding:4vw;color:#fff;text-align:center}html.casper .subscribe-overlay .subscribe-form{border:none;color:#fff;background:none}html.casper .subscribe-overlay-logo{position:fixed;top:23px;left:30px;height:30px}html.casper .subscribe-overlay-title{display:inline-block;margin:0 0 10px;font-size:5.2rem;line-height:1.15em}html.casper .subscribe-overlay-description{margin:0 auto 50px;max-width:650px;color:#fff;font-family:Georgia,serif;font-size:2.4rem;line-height:1.3em;font-weight:300;opacity:.8}html.casper .subscribe-overlay form{display:flex;justify-content:center;align-items:center;margin:0 auto;max-width:540px}html.casper .subscribe-overlay .form-group{flex-grow:1}html.casper .subscribe-overlay .subscribe-email{display:block;padding:14px 20px;width:100%;border:none;color:#575760;font-size:2rem;line-height:1em;font-weight:400;letter-spacing:.5px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;border-radius:8px;transition:border-color .15s linear;-webkit-appearance:none}html.casper .subscribe-email:focus{outline:0;border-color:#8f8f99}html.casper .subscribe-overlay button{display:inline-block;margin:0 0 0 15px;padding:0 25px;height:52px;outline:none;color:#fff;font-size:1.7rem;line-height:38px;font-weight:400;text-align:center;background:linear-gradient(#38ed9c,#1fd181 60%,#1fd181 90%,#21de89);border-radius:8px;-webkit-font-smoothing:subpixel-antialiased}html.casper .subscribe-overlay button:active,html.casper .subscribe-overlay button:focus{background:#1ec87b}html.casper .subscribe-overlay .loading .button-loader{top:5px}@media (max-width:500px){html.casper .subscribe-overlay button{margin:12px 0 0}}html.casper .site-footer{position:relative;padding-top:20px;padding-bottom:60px;color:#fff;background:#27272b}html.casper .site-footer-content{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;color:hsla(0,0%,100%,.7);font-size:1.3rem}html.casper .site-footer-content a{color:hsla(0,0%,100%,.7)}html.casper .site-footer-content a:hover{color:#fff;text-decoration:none}html.casper .site-footer-nav{display:flex}html.casper .site-footer-nav a{position:relative;margin-left:20px}html.casper .site-footer-nav a:not(.footer__social):before{content:"";position:absolute;top:11px;left:-11px;display:block;width:2px;height:2px;background:#fff;border-radius:100%}html.casper .site-footer-nav a:first-of-type:before{display:none}html.casper .site-footer-nav .icon{display:inline-block;width:1.35em;height:1.35em;fill:currentColor}@media (max-width:650px){html.casper .site-footer-content{flex-direction:column}html.casper .site-footer-nav a:first-child{margin-left:0}}html.casper .post-full-content .kg-width-wide .gatsby-image-wrapper img{max-width:1040px}html.casper .post-full-content .kg-width-full .gatsby-image-wrapper img{max-width:100vw}html.casper .kg-bookmark-thumbnail .gatsby-image-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:0 3px 3px 0;-o-object-fit:cover;object-fit:cover}html.casper .fluid-container{overflow:hidden;padding-top:56.25%;position:relative;min-width:100%;margin:.5em 0 1em}html.casper .fluid-container iframe{border:0;height:100%;left:0;position:absolute;top:0;width:100%}html.casper body.dark{color:hsla(0,0%,100%,.85);background:#141416}html.casper body.dark img{opacity:.9}html.casper body.dark .site-header-background:before{background:rgba(0,0,0,.6)}html.casper body.dark .post-feed{background:#141416}html.casper body.dark .post-card,html.casper body.dark .post-card:hover{border-bottom-color:#27272b}html.casper body.dark .author-profile-image{background:#141416}html.casper body.dark .post-card-byline-content a{color:hsla(0,0%,100%,.75)}html.casper body.dark .post-card-byline-content a:hover{color:#fff}html.casper body.dark .post-card-image{background:#141416}html.casper body.dark .post-card-title{color:hsla(0,0%,100%,.85)}html.casper body.dark .post-card-excerpt{color:#6f6f7b}html.casper body.dark .author-avatar,html.casper body.dark .static-avatar{border-color:#2c2c30}html.casper body.dark .page-template .site-main,html.casper body.dark .post-full-content,html.casper body.dark .post-template .site-main,html.casper body.dark .site-main{background:#141416}html.casper body.dark .post-full-title{color:hsla(0,0%,100%,.9)}html.casper body.dark .post-full-custom-excerpt{color:#6f6f7b}html.casper body.dark .post-full-image{background-color:#27272b}html.casper body.dark .post-full-byline{border-top-color:#38383e}html.casper body.dark .post-full-byline-meta h4 a{color:hsla(0,0%,100%,.75)}html.casper body.dark .post-full-byline-meta h4 a:hover{color:#fff}html.casper body.dark .author-list-item .author-card{background:#1d1d20;box-shadow:0 12px 26px rgba(0,0,0,.4)}html.casper body.dark .author-list-item .author-card:before{border-top-color:#1d1d20}html.casper body.dark .no-image .author-social-link a{color:hsla(0,0%,100%,.75)}html.casper body.dark .post-full-content h1,html.casper body.dark .post-full-content h2,html.casper body.dark .post-full-content h3,html.casper body.dark .post-full-content h4,html.casper body.dark .post-full-content h6{color:hsla(0,0%,100%,.9)}html.casper body.dark .post-full-content a{color:#fff;box-shadow:inset 0 -1px 0 #fff}html.casper body.dark .post-full-content em,html.casper body.dark .post-full-content strong{color:#fff}html.casper body.dark .post-full-content code{color:#fff;background:#000}html.casper body.dark hr{border-top-color:#27272b}html.casper body.dark .post-full-content hr:after{box-shadow:0 0 0 5px #141416;background:#27272b}html.casper body.dark .post-full-content figcaption{color:hsla(0,0%,100%,.6)}html.casper body.dark .post-full-content table td:first-child{background-image:linear-gradient(90deg,#141416 50%,rgba(20,20,22,0))}html.casper body.dark .post-full-content table td:last-child{background-image:linear-gradient(270deg,#141416 50%,rgba(20,20,22,0))}html.casper body.dark .post-full-content table th{color:hsla(0,0%,100%,.85);background-color:#27272b}html.casper body.dark .post-full-content table td,html.casper body.dark .post-full-content table th{border:1px solid #27272b}html.casper body.dark .post-full-content .kg-bookmark-container,html.casper body.dark .post-full-content .kg-bookmark-container:hover{color:hsla(0,0%,100%,.75);box-shadow:0 0 1px hsla(0,0%,100%,.9)}html.casper body.dark .kg-bookmark-title{color:#fff}html.casper body.dark .kg-bookmark-description,html.casper body.dark .kg-bookmark-metadata{color:hsla(0,0%,100%,.75)}html.casper body.dark .site-archive-header .no-image{color:hsla(0,0%,100%,.9);background:#141416}html.casper body.dark .site-archive-header .no-image .site-header-content{border-bottom-color:#38383e}html.casper body.dark .site-header-content .author-profile-image{box-shadow:0 0 0 6px hsla(0,0%,100%,.04)}html.casper body.dark .subscribe-form{border:none;background:linear-gradient(#050505,#0c0c0d)}html.casper body.dark .subscribe-form-title{color:hsla(0,0%,100%,.9)}html.casper body.dark .subscribe-form p{color:hsla(0,0%,100%,.7)}html.casper body.dark .subscribe-email{border-color:#222225;color:hsla(0,0%,100%,.9);background:#1b1b1d}html.casper body.dark .subscribe-email:focus{border-color:#505058}html.casper body.dark .subscribe-form button{opacity:.9}html.casper body.dark .subscribe-form .error .message-error,html.casper body.dark .subscribe-form .invalid .message-error{color:#ec694b}html.casper body.dark .subscribe-form .success .message-success{color:#acd053}:root{background-color:#141416}a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}img{max-width:100%}html{box-sizing:border-box;font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}*,:after,:before{box-sizing:inherit}a{background-color:transparent}a:active,a:hover{outline:0}b,strong{font-weight:700}dfn,em,i{font-style:italic}h1{margin:.67em 0;font-size:2em}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}mark{background-color:#fdffb6}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{margin:0;color:inherit;font:inherit}button{overflow:visible;border:none}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}input:focus{outline:none}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{box-sizing:content-box;-webkit-appearance:textfield}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}legend{padding:0;border:0}textarea{overflow:auto}table{border-spacing:0;border-collapse:collapse}td,th{padding:0}html.casper{overflow-x:hidden;overflow-y:scroll;font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}html.casper body{overflow-x:hidden;color:#0f0f10;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;font-size:1.6rem;line-height:1.6em;font-weight:400;font-style:normal;letter-spacing:0;text-rendering:optimizeLegibility;background:#fcfcfd;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:"liga" on}html.casper ::-moz-selection{text-shadow:none;background:#b4f8da}html.casper ::selection{text-shadow:none;background:#b4f8da}html.casper hr{position:relative;display:block;width:100%;margin:2.5em 0 3.5em;padding:0;height:1px;border:0;border-top:1px solid #afafb6}html.casper audio,html.casper canvas,html.casper iframe,html.casper img,html.casper svg,html.casper video{vertical-align:middle}html.casper iframe{width:100%;min-height:400px}html.casper fieldset{margin:0;padding:0;border:0}html.casper textarea{resize:vertical}html.casper blockquote,html.casper dl,html.casper ol,html.casper p,html.casper ul{margin:0 0 1.5em}html.casper ol,html.casper ul{padding-left:1.3em;padding-right:1.5em}html.casper ol ol,html.casper ol ul,html.casper ul ol,html.casper ul ul{margin:.5em 0 1em}html.casper ul{list-style:disc}html.casper ol{list-style:decimal}html.casper ol,html.casper ul{max-width:100%}html.casper li{margin:.5em 0;padding-left:.3em;line-height:1.6em}html.casper dt{float:left;margin:0 20px 0 0;width:120px;color:#27272b;font-weight:500;text-align:right}html.casper dd{margin:0 0 5px;text-align:left}html.casper blockquote{margin:1.5em 0;padding:0 1.6em;border-left:.5em solid #ececee}html.casper blockquote p{margin:.8em 0;font-size:1.2em;font-weight:300}html.casper blockquote small{display:inline-block;margin:.8em 0 .8em 1.5em;font-size:.9em;opacity:.8}html.casper blockquote small:before{content:"\2014   \A0"}html.casper blockquote cite{font-weight:700}html.casper blockquote cite a{font-weight:400}html.casper a{color:#14e687;text-decoration:none}html.casper a:hover{text-decoration:underline}html.casper h1,html.casper h2,html.casper h3,html.casper h4,html.casper h5,html.casper h6{margin-top:0;line-height:1.15;font-weight:600;text-rendering:optimizeLegibility}html.casper h1{margin:0 0 .5em;font-size:5.5rem;font-weight:600}@media (max-width:500px){html.casper h1{font-size:2.2rem}}html.casper h2{margin:1.5em 0 .5em;font-size:2.2rem}@media (max-width:500px){html.casper h2{font-size:1.8rem}}html.casper h3{margin:1.5em 0 .5em;font-size:1.8rem;font-weight:500}@media (max-width:500px){html.casper h3{font-size:1.7rem}}html.casper h4{margin:1.5em 0 .5em;font-size:1.6rem;font-weight:500}html.casper h5,html.casper h6{margin:1.5em 0 .5em;font-size:1.4rem;font-weight:500}html.casper .pagination{position:relative;display:flex;justify-content:space-between;align-items:center;margin:-2vw 0 3vw}html.casper .pagination a{display:inline-block;padding:10px 0;border:1px solid var(--color-border);color:var(--color-secondary);text-decoration:none;font-size:1.6rem;line-height:1em;border-radius:var(--radius)}html.casper .pagination-location{position:absolute;left:50%;width:100px;margin-left:-50px;text-align:center;color:var(--color-secondary);font-size:1.3rem}html.casper code[class*=language-],html.casper pre[class*=language-]{color:#fff;background:none;font-family:Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;font-feature-settings:normal;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-ms-hyphens:none;hyphens:none}html.casper pre[class*=language-]{overflow:auto}html.casper pre[class*=language-]::-moz-selection{background:#cbeafb}html.casper pre[class*=language-]::selection{background:#cbeafb}html.casper pre[class*=language-]::-moz-selection{text-shadow:none;background:hsla(0,0%,100%,.15)}html.casper pre[class*=language-]::selection{text-shadow:none;background:hsla(0,0%,100%,.15)}html.casper :not(pre)>code[class*=language-]{color:inherit;border-radius:.3em;background:#cbeafb;padding:.15em .5em;white-space:normal;text-shadow:none}html.casper :not(pre)>code[class*=language-]::-moz-selection{text-shadow:none;background:#8ad2fa}html.casper :not(pre)>code[class*=language-]::selection{text-shadow:none;background:#8ad2fa}html.casper .token.attr-name{color:#addb67;font-style:italic}html.casper .token.comment{color:#809393}html.casper .token.string,html.casper .token.url{color:#addb67}html.casper .token.variable{color:#d6deeb}html.casper .token.number{color:#f78c6c}html.casper .token.builtin,html.casper .token.char,html.casper .token.constant,html.casper .token.function{color:#82aaff}html.casper .token.punctuation{color:#c792ea}html.casper .token.doctype,html.casper .token.selector{color:#c792ea;font-style:"italic"}html.casper .token.class-name{color:#ffcb8b}html.casper .token.keyword,html.casper .token.operator,html.casper .token.tag{color:#ffa7c4}html.casper .token.boolean{color:#ff5874}html.casper .token.property{color:#80cbc4}html.casper .token.namespace{color:#b2ccd6}html.casper pre[data-line]{padding:1em 0 1em 3em;position:relative}html.casper .gatsby-highlight-code-line{background-color:#022a4b;display:block;padding-right:1em;padding-left:1.25em;border-left:.25em solid #ffa7c4}html.casper .post-full-content pre{background:#011627}html.casper .gatsby-highlight pre[class*=language-]{min-width:100%;margin-bottom:3em}html.casper body.dark code[class*=language-],html.casper body.dark pre[class*=language-]{background:none}</style><meta name="generator" content="Gatsby 2.32.11"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#141416"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><link rel="alternate" type="application/rss+xml" title="Particl News RSS Feed" href="/rss"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><title data-react-helmet="true">Particl V3 Release Date Announcement</title><link data-react-helmet="true" rel="canonical" href="https://particl.news/particl-v3-mainnet-release-date-announcement/"/><meta data-react-helmet="true" name="description" content="The long-anticipated Particl V3 and Particl Marketplace are going live on mainnet on the 29th of September 2021. Find out all the details in this blog post."/><meta data-react-helmet="true" property="og:site_name" content="Particl News"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="Particl V3 Release Date Announcement"/><meta data-react-helmet="true" property="og:description" content="The long-anticipated Particl V3 and Particl Marketplace are going live on mainnet on the 29th of September 2021. Find out all the details in this blog post."/><meta data-react-helmet="true" property="og:url" content="https://particl.news/particl-v3-mainnet-release-date-announcement/"/><meta data-react-helmet="true" property="article:published_time" content="2021-09-17T15:00:00.000+00:00"/><meta data-react-helmet="true" property="article:modified_time" content="2021-09-18T14:27:10.000+00:00"/><meta data-react-helmet="true" property="article:tag" content="Progress"/><meta data-react-helmet="true" property="article:tag" content="News"/><meta data-react-helmet="true" name="twitter:title" content="Particl V3 Release Date Announcement"/><meta data-react-helmet="true" name="twitter:description" content="The long-anticipated Particl V3 and Particl Marketplace are going live on mainnet on the 29th of September 2021. Find out all the details in this blog post."/><meta data-react-helmet="true" name="twitter:url" content="https://particl.news/particl-v3-mainnet-release-date-announcement/"/><meta data-react-helmet="true" name="twitter:label1" content="Written by"/><meta data-react-helmet="true" name="twitter:data1" content="cryptoguard"/><meta data-react-helmet="true" name="twitter:label2" content="Filed under"/><meta data-react-helmet="true" name="twitter:data2" content="Progress"/><meta data-react-helmet="true" name="twitter:site" content="https://twitter.com/particlproject/"/><meta data-react-helmet="true" name="twitter:creator" content="@particlproject"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:image" content="https://particl.news/glink/2021/09/medium-v3-ann-release-MP.jpg"/><meta data-react-helmet="true" property="og:image" content="https://particl.news/glink/2021/09/medium-v3-ann-release-MP.jpg"/><meta data-react-helmet="true" property="og:image:width" content="1280"/><meta data-react-helmet="true" property="og:image:height" content="640"/><script data-react-helmet="true" type="application/ld+json">{
+    "@context": "https://schema.org/",
+    "@type": "Article",
+    "author": {
+        "@type": "Person",
+        "name": "cryptoguard"
+    },
+    "keywords": "Progress, News",
+    "headline": "Particl V3 Release Date Announcement",
+    "url": "https://particl.news/particl-v3-mainnet-release-date-announcement/",
+    "datePublished": "2021-09-17T15:00:00.000+00:00",
+    "dateModified": "2021-09-18T14:27:10.000+00:00",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://particl.news/glink/2021/09/medium-v3-ann-release-MP.jpg",
+        "width": 1280,
+        "height": 640
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Particl News",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/static/701c7e3139c72702944a5cc5003d5993/particl_no-logo_green_dot_white_text.svg",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "description": "The long-anticipated Particl V3 and Particl Marketplace are going live on mainnet on the 29th of September 2021. Find out all the details in this blog post.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://particl.news"
+    }
+}</script><style data-react-helmet="true" type="text/css">null</style><style data-react-helmet="true" type="text/css">
+.post-full-image,
+.disabled {
+    display: none !important;
+}
+
+a.btn,
+html.casper .post-full-content a.btn,
+html.casper body.dark .post-full-content a.btn {
+    display: inline-block;
+    padding: .1255em 1.2em;
+    border: .13225em solid #14e687;
+    margin: 0 .2em .2em 0;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #14e687;
+    box-shadow: none;
+    font-size: 70%;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+
+a.btn:hover,
+html.casper .post-full-content a.btn:hover,
+html.casper body.dark .post-full-content a.btn:hover {
+    color: white;
+    border-radius: 999px;
+    border: .13225em solid #14e687;
+    background-color: #14e687;
+    border-color: #14e687;
+    box-shadow: none;
+}
+
+.tags {
+    margin-top: 1em;
+}
+
+.tags:empty {
+    margin-top: 0em;
+    height: 0px
+}
+
+span.tag {
+    color: white;
+    border-radius: 15px;
+    border: .13225em solid #14e687;
+    border-top-color: rgb(20, 230, 135);
+    border-right-color: rgb(20, 230, 135);
+    border-bottom-color: rgb(20, 230, 135);
+    border-left-color: rgb(20, 230, 135);
+    background-color: #14e687;
+    border-color: #14e687;
+    box-shadow: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    zoom: 70%;
+    font-weight: bold;
+    padding: .5em 1em .5em 1em;
+    text-transform: uppercase;
+}
+
+div h3+ul,
+html.casper .post-full-content h3+ul,
+div h3+ol,
+html.casper .post-full-content h3+ol,
+h3+.acc,
+h4+.acc,
+h5+.acc {
+    margin-top: .85em
+}
+
+/* The switch - the box around the slider */
+.acc-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    zoom: 60%;
+    margin: 2em 0em 0em 0em;
+}
+
+/* Hide default HTML checkbox */
+.acc-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.acc-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.acc-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.acc-slider {
+    background-color: #14e687;
+}
+
+
+input:focus+.acc-slider {
+    box-shadow: 0 0 1px #14e687;
+}
+
+input:checked+.acc-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.acc-slider.round {
+    border-radius: 34px;
+}
+
+.acc-slider.round:before {
+    border-radius: 50%;
+}
+
+/* Accordion styles */
+.acc {
+    font-size: 90%;
+    min-width: 1040px;
+}
+
+.acc.light-one {
+    font-size: 100%
+}
+
+.acc.nwidth {
+    min-width: auto;
+}
+
+.acc h1 {
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+}
+
+.acc h2 {
+    margin: 0 0 0.5em;
+    font-weight: normal;
+}
+
+.acc input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.acc .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.acc .row .col {
+    /*flex: 0 24%;*/
+    flex: 0 32%;
+    /*flex: 1 1;*/
+    /*flex: 0 45%;*/
+}
+
+.acc.threethird .row .col {
+    flex: 0 75%;
+}
+
+.acc.full .row .col {
+    flex: 0 100%;
+}
+
+.acc .row .col:not(:first-child) {}
+
+.acc .tabs {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.acc.light-one .tabs {
+    box-shadow: none;
+}
+
+.acc .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    border-bottom: .5px solid rgb(74, 74, 74);
+}
+
+.acc.light-one .tab {
+    color: inherit;
+    border-bottom: .5px solid #c5d2d9;
+}
+    
+html.casper body.dark .acc.light-one .tab {
+    color: whitesmoke;
+    }
+
+.acc.light-one .tab:last-child {
+    border-bottom: none;
+}
+
+.acc .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: .35em .55em;
+    background: rgba(117, 77, 238, 0.93);
+    font-size: 90%;
+    font-weight: normal;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.acc.light-one .tab-label {
+    background: none;
+    justify-content: left;
+    font-size: 105%;
+    font-weight: normal;
+    padding: .85em .35em;
+}
+
+.acc .tab-label:hover {
+    background: rgba(35, 38, 47, 0.93);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.acc.light-one .tab-label:hover {
+    background: none;
+}
+
+.acc .tab-label::after {
+    content: "\002B";
+    width: 1em;
+    height: auto;
+    text-align: center;
+    transition: all 0.35s;
+    display: block;
+}
+
+.acc.light-one .tab-label::after {
+    display: none;
+}
+
+.acc.light-one .tab-label::before {
+    content: "\002B";
+    width: 1em;
+    height: auto;
+    text-align: center;
+    transition: all 0.35s;
+    display: block;
+    margin-right: .35em;
+}
+
+.acc .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: rgba(44, 62, 80, 0.75);
+    background: white;
+    transition: all 0.35s;
+    line-height: 1.45em;
+    font-size: 90%;
+    overflow: hidden;
+}
+
+.acc.light-one .tab-content {
+    line-height: 1.755;
+    font-size: 100%;
+}
+    
+html.casper body.dark .acc.light-one .tab-content {
+        color:whitesmoke;
+    background:transparent;
+    }
+
+html.casper body.dark .acc .tab-content strong {
+    color: rgba(44, 62, 80, 0.75);
+}
+
+html.casper body.dark .acc .tab-content a {
+    color: rgba(44, 62, 80, 1) !important;
+    box-shadow: inset 0 -1px 0 #27272b;
+}
+
+    html.casper body.dark .acc.light-one .tab-content a, html.casper body.dark .acc .tab-content strong {
+    color: #fff !important;
+box-shadow: inset 0 -1px 0 #fff;
+}
+
+.acc .tab-content>* {
+    margin-bottom: .0em !important;
+}
+
+.acc.light-one .tab-content>* {
+    margin-bottom: .0em !important;
+    padding-left: 1.1em;
+}
+
+.acc .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: rgba(10, 11, 11, 0.7);
+    cursor: pointer;
+}
+
+.acc .tab-close:hover {
+    background: rgba(35, 38, 47, 0.93);
+}
+
+.acc input:checked+.tab-label {
+    background: rgba(35, 38, 47, 0.93);
+}
+
+.acc.light-one input:checked+.tab-label {
+    background: white;
+}
+    
+html.casper body.dark .acc.light-one input:checked+.tab-label {
+    background: transparent;
+}
+
+.acc input:checked+.tab-label::after {
+    content: "\2212";
+    transform: rotate(360deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.acc.light-one input:checked+.tab-label::before {
+    content: "\2212";
+    transform: rotate(360deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.acc input:checked~.tab-content {
+    max-height: 300vh;
+    padding: 1em;
+}
+
+.acc.light-one input:checked~.tab-content {
+    max-height: 300vh;
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+@media (max-width: 1040px) {
+    .acc .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: auto;
+    }
+
+    .acc .row .col {
+        flex: 0 48.5%;
+        margin-bottom: 1em;
+    }
+
+    .acc {
+        font-size: 80%;
+        min-width: auto;
+    }
+
+    .acc .row .col:not(:first-child) {
+        margin-left: 0em;
+    }
+
+}
+}
+
+@media (max-width: 800px) {
+    .acc {
+        font-size: 100%;
+        min-width: auto;
+    }
+
+    .acc .row {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: space-between;
+    }
+
+    .acc .row .col:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .acc.light-one .tab-content>* {
+        margin-bottom: .0em !important;
+        padding-left: none;
+    }
+}
+
+</style><style data-styled="" data-styled-version="5.2.1">.ewBpHo{background-color:transparent;}/*!sc*/
+data-styled.g3[id="DarkModeToggle__Button-suhg65-0"]{content:"ewBpHo,"}/*!sc*/
+.kIoRwv.kIoRwv.kIoRwv > svg{height:1.7rem;margin-left:0.2rem;}/*!sc*/
+data-styled.g5[id="DarkModeToggle__MoonIconWrapper-suhg65-2"]{content:"kIoRwv,"}/*!sc*/
+</style><link as="script" rel="preload" href="/webpack-runtime-4aba1f4a3f33230a5b2e.js"/><link as="script" rel="preload" href="/framework-6d66d5972eed3ca7d246.js"/><link as="script" rel="preload" href="/app-fe354ce1e7f36d321527.js"/><link as="script" rel="preload" href="/styles-474c0340beb1ced255f1.js"/><link as="script" rel="preload" href="/1bfc9850-ab99a49a450caa986967.js"/><link as="script" rel="preload" href="/29107295-42402af61ecb67fe3eef.js"/><link as="script" rel="preload" href="/commons-4962189bacf44db64129.js"/><link as="script" rel="preload" href="/35788454f5bd6bb7f79f14a249a043673753720d-f6d26a4128e515844ec3.js"/><link as="script" rel="preload" href="/component---gatsby-theme-particl-ghost-src-templates-post-js-1ebdf1f6106907300eff.js"/><link as="fetch" rel="preload" href="/page-data/particl-v3-mainnet-release-date-announcement/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1272700106.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1676991999.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2138873178.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2546165603.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938721187.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/293880488.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/293880488.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3052966952.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/4156497161.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/4162540091.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="post-template false  "><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="site-wrapper"><header class="site-header"><div class="outer site-nav-main undefined"><div class="inner"><nav class="site-nav"><div class="site-nav-left-wrapper"><div class="site-nav-left"><a class="site-nav-logo" href="https://particl.news"><img src="/static/701c7e3139c72702944a5cc5003d5993/particl_no-logo_green_dot_white_text.svg" alt="Particl News"/></a><div class="site-nav-content"><ul class="nav" role="menu"><li class="nav-highlights" role="menuitem"><a class="nav-home nav-current" href="/tag/highlights/">Highlights</a></li><li class="nav-news" role="menuitem"><a class="nav-home nav-current" href="/tag/news/">News</a></li><li class="nav-progress" role="menuitem"><a class="nav-home nav-current" href="/tag/progress/">Progress</a></li><li class="nav-stories" role="menuitem"><a class="nav-home nav-current" href="/tag/stories/">Stories</a></li><li class="nav-about" role="menuitem"><a class="nav-home nav-current" href="/about/">About</a></li></ul><span class="nav-post-title /glink/2020/09/particl_no-logo_green_dot_white_text.svg">Particl V3 Release Date Announcement</span></div></div></div><div class="site-nav-right"><div class="social-links"><a href="https://www.facebook.com/particlproject" class="social-link social-link-fb" target="_blank" rel="noopener noreferrer" title="Facebook"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0zm5.204 4.911h-3.546c-2.103 0-4.443.885-4.443 3.934.01 1.062 0 2.08 0 3.225h-2.433v3.872h2.509v11.147h4.61v-11.22h3.042l.275-3.81h-3.397s.007-1.695 0-2.187c0-1.205 1.253-1.136 1.329-1.136h2.054V4.911z"></path></svg></a><a href="https://twitter.com/particlproject" class="social-link social-link-tw" target="_blank" rel="noopener noreferrer" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg></a><a class="rss-button" href="https://feedly.com/i/subscription/feed/https://particl.news/rss" target="_blank" rel="noopener noreferrer" title="Rss"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg></a></div><button class="DarkModeToggle__Button-suhg65-0 ewBpHo rss-button" title="DarkMode"><div class="DarkModeToggle__MoonIconWrapper-suhg65-2 kIoRwv"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M264,480A232,232,0,0,1,32,248C32,154,86,69.72,169.61,33.33a16,16,0,0,1,21.06,21.06C181.07,76.43,176,104.66,176,136c0,110.28,89.72,200,200,200,31.34,0,59.57-5.07,81.61-14.67a16,16,0,0,1,21.06,21.06C442.28,426,358,480,264,480Z"></path></svg></div></button></div></nav></div></div></header><main id="site-main" class="site-main outer "><div class="inner"><article class="post-full intemppost post tag-progress tag-news featured"><header class="post-full-header intemppost"><section class="post-full-tags intemppost"><a href="/tag/progress/">Progress</a></section><h1 class="post-full-title intemppost">Particl V3 Release Date Announcement</h1><p class="post-full-custom-excerpt intemppost">The long-anticipated Particl V3 and Particl Marketplace are going live on mainnet on the 29th of September 2021. Find out all the details in this blog post.</p><div class="post-full-byline intemppost"><section class="post-full-byline-content"><section class="post-full-byline-meta"><div class="byline-meta-content"><time class="byline-meta-date" dateTime="2021-09-17T15:00:00.000+00:00">17 Sep 2021<!-- --> </time><span class="byline-reading-time"><span class="bull">•</span> <!-- -->4 min read</span></div></section></section></div></header><section class="post-full-content intemppost"><div class="post-content load-external-scripts"><figure class="kg-card kg-image-card kg-width-wide"><img src="/glink/2021/09/blog-v3-ann-release-MP.jpg" class="kg-image" alt="" srcSet="/glink/size/w600/2021/09/blog-v3-ann-release-MP.jpg 600w, /glink/size/w1000/2021/09/blog-v3-ann-release-MP.jpg 1000w, /glink/size/w1600/2021/09/blog-v3-ann-release-MP.jpg 1600w, /glink/2021/09/blog-v3-ann-release-MP.jpg 1920w" sizes="(min-width: 1200px) 1200px"/></figure><p>In December 2019, we all embarked on the long and ambitious journey of rewriting <strong>Particl Desktop</strong> and the vast majority of <strong>Particl Marketplace</strong>. This would make both of them much easier to use, more flexible, secure, private, and, perhaps more importantly, set the stage for getting adoption from a broader range of audiences. This major and long-awaited upgrade is what is now known as <strong>“Particl V3”.</strong> </p><p>We are excited to announce, today, that Particl V3 is <strong>going live, on mainnet, on the 29th of September 2021 at 12:00 UTC! </strong></p><figure class="kg-card kg-image-card kg-width-wide"><img src="/glink/2021/09/16-September-2021-13-58-24.png" class="kg-image" alt="" srcSet="/glink/size/w600/2021/09/16-September-2021-13-58-24.png 600w, /glink/size/w1000/2021/09/16-September-2021-13-58-24.png 1000w, /glink/2021/09/16-September-2021-13-58-24.png 1268w" sizes="(min-width: 1200px) 1200px"/></figure><p>Thanks to all of you in the community for your support, time, passion, experience, and dedication in helping out, testing, and engaging in constructive conversations that help shape the future of e-commerce and personal liberties. You are what makes Particl&#x27;s mission possible; our hats are off to you!</p><p>Now let&#x27;s go over a few basic information you need to know in preparation for the mainnet release of Particl V3.</p><hr/><h2 id="where-will-it-be-available">Where will it be available?</h2><p>Particl V3 refers to the new <strong>Particl Desktop (3.0.0)</strong> client which gives access to the new <strong>Particl Marketplace</strong> and <strong>community governance</strong> module. And so, to use the marketplace, you will need to install the latest version of Particl Desktop, which will be available on the <a href="https://particl.io/downloads">official Particl website</a> and the <a href="https://github.com/particl/particl-desktop/releases/">project’s Github page</a> on the<strong> 29th of September 2021 at 12:00 UTC.</strong></p><h2 id="what-can-i-do-to-prepare">What can I do to prepare?</h2><h3 id="finalize-open-orders-on-previous-versions-of-the-marketplace">Finalize open orders on previous versions of the marketplace</h3><p>Particl V3 is the biggest update to Particl ever since the project was launched in 2017. And because the scope of the changes is so large, <strong>orders and listings created on previous versions won&#x27;t be compatible with Particl V3</strong>.</p><p>For this reason, we highly recommend finalizing any open marketplace order on previous versions.<strong> </strong>But don’t worry, if you have open orders that you cannot complete at this moment (i.e., the escrow smart-contract is still locked), you’ll be able to switch between Particl Desktop 2.x.x and Particl 3.x.x freely, at any time, to finalize orders even if you’ve started using Particl V3.</p><h3 id="spread-the-good-word-around-you">Spread the good word around you</h3><p>With the long-anticipated Particl V3 release now having an official mainnet release date, now’s the time to inform people around you and talk about all the benefits that private and unrestricted e-commerce without middlemen offers.</p><p>To support your communication efforts after the release, you&#x27;ll be able to point potential newcomers to the <strong>Particl Academy</strong>.</p><h2 id="the-particl-academy-is-coming-">The Particl Academy is Coming!</h2><p>To support the mainnet release of Particl V3, <strong>the Particl Academy will launch on the same day (29th of September 2021 at 12:00 UTC)</strong>.</p><p>The Particl Academy is your guide to becoming an expert in distributed e-commerce with Particl Marketplace. It gives you all the information you need to master Particl V3 and the other components of the Particl ecosystem. It’s a thorough reference book written in simple and straightforward language that anybody can understand.</p><p>If you show Particl to someone new, don’t forget to point them to the Particl Academy! That&#x27;ll let them quickly learn about it and guide them through their first steps.</p><h2 id="subscribe-to-our-newsletter">Subscribe to our Newsletter</h2><p>If you haven’t already done so, we&#x27;d like to invite you to subscribe to our newsletter so that you don’t miss any important news, update, or exclusive content. </p><p>Along with the Particl V3 mainnet release, we are re-initiating our newsletter communication. We will be pushing news, stories, and other valuable content through it from now on and subscribing is a perfect way not to miss anything important.</p><ul><li><strong>Subscribe to Particl&#x27;s newsletter here:</strong> <a href="https://bit.ly/3CgyB3q">https://bit.ly/3CgyB3q</a></li></ul><hr/><h2 id="see-you-on-mainnet-">See You on Mainnet!</h2><p>Particl V3 is the new, more modern foundation on top of which the future of Particl is being built; it&#x27;s just the beginning! </p><p>We also want to remind you to stay tuned as we will release a new, groundbreaking roadmap shortly after the mainnet release of Particl V3. We are convinced that you will be as excited as we are about the path forward. The next few milestones are all about increasing Particl’s accessibility, usability, scalability, and, of course, adoption.</p><p>Once again, thank you for your incredible support and confidence throughout the entire development cycle of Particl V3. Positive words, constructive feedback, and discussions are critical to the success of the Particl ecosystem. We are blessed to have you as such a dedicated and passionate community and we&#x27;re very excited to walk through this journey with you all!</p><p>Let’s now make sure to spread the word about the upcoming release to get as many eyes as possible on it, and let’s blast through the next phase of the project. The best is yet to come and it starts on the 29th of this month!</p><hr/><h3 id="particl-is-participation">Particl is Participation</h3><p>Get recognized as someone that cares. With your help, we become more noticed out there. It takes seconds, and you are making a statement by giving us a follow and hitting the bell icon.</p><p><a href="https://youtube.com/c/particl" class="btn">YouTube</a>     <a href="https://twitter.com/ParticlProject" class="btn">Twitter</a>     <a href="https://fosstodon.org/@particl" class="btn">Mastodon</a>     <a href="https://reddit.com/r/particl" class="btn">Reddit</a><br/></p>
+<p>Join the instant messaging chats. There&#x27;s no need to be active, but it’s good to be in the loop.</p><p><a href="https://discord.me/particl" class="btn">Discord</a>     <a href="https://t.me/particlproject" class="btn">Telegram</a>     <a href="https://riot.im/app/#/room/#particlOn:matrix.org" class="btn">Element / Matrix</a></p>
+<p>Gain deep knowledge about Particl by reading.</p><p><a href="https://particl.io" class="btn">Website</a>     <a href="https://particl.wiki" class="btn">Wiki</a></p>
+<p>Last but not least, a list that shows an infinite number of links clearly categorized and on one page.</p><p><a href="https://www.reddit.com/r/Particl/comments/pxu0py/getting_started/" class="btn">Useful Particl links</a></p><hr/>
+</div></section></article></div></main><aside class="read-next outer"><div class="inner"><div class="read-next-feed"><article class="read-next-card"><header class="read-next-card-header"><h3><span>More in</span> <a href="/tag/progress/">Progress</a></h3></header><div class="read-next-card-content"><ul><li><h4><a href="/ccs-proposal-25-approved/">CCS Proposal #25 Approved! 🎉</a></h4><div class="read-next-card-meta"><p><time dateTime="2025-10-20T17:09:37.000+00:00">20 Oct 2025</time> – <!-- -->5 min read</p></div></li><li><h4><a href="/particl-development-progress-report-13-06-2025/">Particl Development Progress Report (13-06-2025)</a></h4><div class="read-next-card-meta"><p><time dateTime="2025-06-13T20:12:25.000+00:00">13 Jun 2025</time> – <!-- -->4 min read</p></div></li><li><h4><a href="/particl-development-progress-report-06-06-2025/">Particl Development Progress Report (06-06-2025)</a></h4><div class="read-next-card-meta"><p><time dateTime="2025-06-07T21:44:16.000+00:00">7 Jun 2025</time> – <!-- -->3 min read</p></div></li></ul></div><footer class="read-next-card-footer"><a href="/tag/progress/">See all 343 posts<!-- --> →</a></footer></article><article class="post-card post tag-progress "><a class="post-card-image-link" href="/particl-development-progress-report-24-09-2021/"><img class="post-card-image" src="/glink/2021/09/medium-particl-dev-project-progress-4.jpg" alt="Particl Development Progress Report (24-09-2021)"/></a><div class="post-card-content"><a class="post-card-content-link" href="/particl-development-progress-report-24-09-2021/"><header class="post-card-header"><div class="post-card-primary-tag">Progress</div><h2 class="post-card-title">Particl Development Progress Report (24-09-2021)</h2></header><section class="post-card-excerpt"><p>Get up to speed with the all the recent Particl development and research.</p></section></a><footer class="post-card-meta"><div class="post-card-byline-content"><span class="post-card-byline-date"><time dateTime="2021-09-24T17:44:42.000+00:00">24 Sep 2021<!-- --> </time><span class="bull">• </span> <!-- -->3 min read</span></div></footer></div></article><article class="post-card post tag-progress "><a class="post-card-image-link" href="/particl-development-progress-report-17-09-2021/"><img class="post-card-image" src="/glink/2021/09/medium-particl-dev-project-progress-3.jpg" alt="Particl Development Progress Report (17-09-2021)"/></a><div class="post-card-content"><a class="post-card-content-link" href="/particl-development-progress-report-17-09-2021/"><header class="post-card-header"><div class="post-card-primary-tag">Progress</div><h2 class="post-card-title">Particl Development Progress Report (17-09-2021)</h2></header><section class="post-card-excerpt"><p>Get up to speed with the recent Particl V3 progress report.</p></section></a><footer class="post-card-meta"><div class="post-card-byline-content"><span class="post-card-byline-date"><time dateTime="2021-09-17T14:58:12.000+00:00">17 Sep 2021<!-- --> </time><span class="bull">• </span> <!-- -->3 min read</span></div></footer></div></article></div></div></aside><footer class="site-footer outer"><div class="site-footer-content inner"><section class="copyright"><a href="https://particl.news">Particl News</a> © <!-- -->2025</section><nav class="site-footer-nav"><a class="footer__social" href="https://twitter.com/particlproject" target="_blank" title="twitter"><svg class="icon icon-twitter red_mod"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-twitter"></use></svg></a><a class="footer__social" href="https://discord.me/particl" target="_blank" title="Discord"><svg class="icon icon-discord"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-discord"></use></svg></a><a class="footer__social" href="https://t.me/particlOn" target="_blank" title="Telegram"><svg class="icon icon-telegram"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-telegram"></use></svg></a><a class="footer__social" href="https://www.reddit.com/r/Particl/" target="_blank" title="Reddit"><svg class="icon icon-reddit"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-reddit"></use></svg></a><a class="footer__social" href="https://riot.im/app/#/room/#particl:matrix.org" target="_blank" title="Riot/Element"><svg class="icon icon-riot"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-riot"></use></svg></a><a class="footer__social" href="https://github.com/particl" target="_blank" title="Github"><svg class="icon icon-github"><use xlink:href="/static/social_logo_sprite-46c5fdd065362ad14b70573e58aef780.svg#icon-github"></use></svg></a><a href="https://particl.io/marketplace" target="_blank" title="Visit the Website">Website</a><a href="https://academy.particl.io" target="_blank" title="Learn everything about Particl Marketplace">Academy</a></nav></div></footer></div><div class="subscribe-success-message" style="opacity:0"><a class="subscribe-close"></a>You&#x27;ve successfully subscribed to<!-- --> <!-- -->Particl News<!-- -->!</div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/particl-v3-mainnet-release-date-announcement/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-186f401a266a197ef783.js"],"app":["/app-fe354ce1e7f36d321527.js"],"component---gatsby-theme-particl-ghost-src-pages-404-js":["/component---gatsby-theme-particl-ghost-src-pages-404-js-c3aa69dfc662c12405f3.js"],"component---gatsby-theme-particl-ghost-src-templates-author-js":["/component---gatsby-theme-particl-ghost-src-templates-author-js-aae1449ee6baa0f8f845.js"],"component---gatsby-theme-particl-ghost-src-templates-index-js":["/component---gatsby-theme-particl-ghost-src-templates-index-js-a288b5dbe184be9108f3.js"],"component---gatsby-theme-particl-ghost-src-templates-page-js":["/component---gatsby-theme-particl-ghost-src-templates-page-js-ae39956905b9f0ab86a8.js"],"component---gatsby-theme-particl-ghost-src-templates-post-js":["/component---gatsby-theme-particl-ghost-src-templates-post-js-1ebdf1f6106907300eff.js"],"component---gatsby-theme-particl-ghost-src-templates-tag-js":["/component---gatsby-theme-particl-ghost-src-templates-tag-js-cd3e9c9d72c25512916b.js"]};/*]]>*/</script><script src="/polyfill-186f401a266a197ef783.js" nomodule=""></script><script src="/component---gatsby-theme-particl-ghost-src-templates-post-js-1ebdf1f6106907300eff.js" async=""></script><script src="/35788454f5bd6bb7f79f14a249a043673753720d-f6d26a4128e515844ec3.js" async=""></script><script src="/commons-4962189bacf44db64129.js" async=""></script><script src="/29107295-42402af61ecb67fe3eef.js" async=""></script><script src="/1bfc9850-ab99a49a450caa986967.js" async=""></script><script src="/styles-474c0340beb1ced255f1.js" async=""></script><script src="/app-fe354ce1e7f36d321527.js" async=""></script><script src="/framework-6d66d5972eed3ca7d246.js" async=""></script><script src="/webpack-runtime-4aba1f4a3f33230a5b2e.js" async=""></script></body></html>
